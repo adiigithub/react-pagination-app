@@ -1,0 +1,33 @@
+ .product-cart{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 210px;
+  padding: 5px;
+  margin: 5px;
+ }
+ 
+ .product-img{
+  height: 200px;
+  width: 200px;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.products-number{
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+ 
+}
+.products-contain{
+  display: flex;
+  justify-content: center;
+}
+.active{
+  background-color: chocolate;
+}
