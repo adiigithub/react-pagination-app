@@ -18,6 +18,7 @@ const Products = ({product}) => {
 
         <button onClick={() => dispatch(addToCart(product))}>
         Add 🛒
+      
       </button>
     
     </div>
